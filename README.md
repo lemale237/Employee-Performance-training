@@ -1,35 +1,34 @@
 # INX-Employee-Performance
 
 ## Description
-Ce projet a pour but de découvrir les facteurs qui affectent la performance des employés, d'entraîner un modèle pour prédire avec précision la note de performance de l'employé, d'analyser les données pour fournir des recommandations pour améliorer la performance et de tirer des enseignements de l'analyse.
+This project aims to discover the factors that affect employee performance, to train a model to accurately predict the employee's performance rating, to analyze the data to provide recommendations for improving performance, and to learn from the analysis.
 
-## Structure du projet
-- `data`: Dossier contenant les données brutes.
-- `data_eda`: Dossier contenant les données après l'analyse exploratoire.
-- `data_exploratory_analysis[2].ipynb`: Notebook Jupyter pour l'analyse exploratoire des données.
-- `data_processing[1].ipynb`: Notebook Jupyter pour le prétraitement des données.
-- `emp_rating_model`: Dossier contenant le modèle entraîné pour prédire la note de performance de l'employé.
-- `inx_emp.xls`: Fichier Excel contenant les données brutes.
-- `predict_model[4].ipynb`: Notebook Jupyter pour la prédiction du modèle.
-- `train_model[3].ipynb`: Notebook Jupyter pour l'entraînement du modèle.
-- `visualization [5].ipynb`: Notebook Jupyter pour la visualisation des données.
-- `x_test`: Dossier contenant les données de test pour le modèle.
-- `y_test`: Dossier contenant les résultats de test pour le modèle.
+## Project Structure
+- `data`: Folder containing the raw data.
+- `data_eda`: Folder containing the data after exploratory analysis.
+- `data_exploratory_analysis[2].ipynb`: Jupyter Notebook for exploratory data analysis.
+- `data_processing[1].ipynb`: Jupyter Notebook for data preprocessing.
+- `emp_rating_model`: Folder containing the trained model to predict the employee's performance rating.
+- `inx_emp.xls`: Excel file containing the raw data.
+- `predict_model[4].ipynb`: Jupyter Notebook for model prediction.
+- `train_model[3].ipynb`: Jupyter Notebook for model training.
+- `visualization [5].ipynb`: Jupyter Notebook for data visualization.
+- `x_test`: Folder containing the test data for the model.
+- `y_test`: Folder containing the test results for the model.
 
-## Comment utiliser ce projet
-1. Commencez par l'analyse exploratoire des données dans `data_exploratory_analysis[2].ipynb`.
-2. Continuez avec le prétraitement des données dans `data_processing[1].ipynb`.
-3. Entraînez le modèle avec `train_model[3].ipynb`.
-4. Faites des prédictions avec `predict_model[4].ipynb`.
-5. Visualisez les résultats avec `visualization [5].ipynb`.
+## How to Use This Project
+1. Start with the exploratory data analysis in `data_exploratory_analysis[2].ipynb`.
+2. Continue with data preprocessing in `data_processing[1].ipynb`.
+3. Train the model with `train_model[3].ipynb`.
+4. Make predictions with `predict_model[4].ipynb`.
+5. Visualize the results with `visualization [5].ipynb`.
 
-## Dépendances
-Listez ici toutes les dépendances de votre projet, par exemple:
-- Python 3.8
+## Dependencies
 - pandas
 - numpy
 - scikit-learn
 - matplotlib
+- seaborn
+- xgboost
 
-## Licence
-Ajoutez ici des informations sur la licence de votre projet, si applicable.
+## License
